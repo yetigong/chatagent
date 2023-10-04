@@ -1,6 +1,11 @@
+# This is a repository to host an endpoint which is backed by a ChatAgent
+
 # general development tips
 ## generate the dependencies into requirements file
 pip freeze > requirements.txt
+
+## remove the venv files from git
+git rm --cached -r /venv
 
 # common commands for testing the application
 ## start the application, app.main is the package/main.py file path
